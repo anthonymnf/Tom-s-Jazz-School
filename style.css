@@ -239,8 +239,11 @@ footer nav a {
     margin: 0 auto;
     max-width: 72rem;
   }
-  .container .rowReverse {
+  .container.row-reverse {
     flex-direction: row-reverse;
+  }
+  .start {
+    align-content: start;
   }
   .about-colum {
     flex: 2;
